@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+void main()
+{
+    //Завдання 5. Написати програму, яка перетворює введене
+    //з клавіатури дробове число на грошовий формат.Наприклад, число 12, 5 має бути перетворено так : 12 грн 50 коп.
+	int uah;
+	int kop;
+
+	cout << "Enter the number of Uah what you have: " << endl;
+	cin >> uah;
+	cout << "Enter the number of Kopeck what you have: " << endl;
+	cin >> kop;
+	cout << "You have " << uah << " Uah " << kop << " Kopeck";
+
+}
